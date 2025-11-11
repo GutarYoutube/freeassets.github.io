@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div calss="wrapper">
+        <div class="container">
+            <h1>Выбор на Ваш вкус</h1>
+
+            <form id="form">
+                <div class="sortBody">
+                    <div class="sortContent">
+                        <label for="filterInput">Фильтрация по буквам: </label>
+                        <input type="text" id="filterInput" />                
+                    </div>
+
+                    <div class="sortContent">
+                        <p>Сортировка по категории: </p>
+                        <select id="sortCategory">
+                            <option value="all">Все</option>
+                            <option value="models">3D Модели</option>
+                            <option value="sprites">2D Спрайты</option>
+                             <option value="sources">Исходники</option>
+                        </select>
+
+                    </div>
+
+                    <div class="sortContent">
+                        <p>Тип сортировки: </p>
+                        <select id="sortType">
+                            <option value="alphabet">По алфавиту</option>
+                            <option value="dates">По дате публикации</option>
+                        </select>
+                    </div>
+
+                    <div class="sortContent">
+                        <p>Направление сортировки: </p>
+                        <select id="sortOrder">
+                            <option value="asc">По возрастанию веса файла</option>
+                            <option value="desc">По убыванию веса файла</option>
+                        </select>
+                    </div>
+
+                    <button type="button">Сбросить фильтры</button>
+                </div>          
+            </form>
+
+            <ul class="productList"></ul>
+
+            <div id="FullImageView">
+                <img id="FullImage">
+                <span id="CloseButton" onclick="CloseFullView()">&times;</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="blocks container">
+            <div>
+                <span class="logo">GutarCompany</span>
+                <p>Один человек, который пытается сделать игру мечты</p>
+            </div>  
+            <div>
+                <h4>Наши соц сети</h4>
+                <ul>
+                    <a>Телеграм канал</a>
+                    <a>Ютуб канал</a>
+                </ul>
+            </div>    
+            <div>
+                <h4>Сотрудничество</h4>
+                <p>Оставить заявку</p>
+            </div>                
+            </div>
+        <hr>
+        <p>© 2025 GutarCompany. Все торговые марки являются собственностью соответствующих владельцев в России.</p>
+    </footer>
+    <div id="FullImageView">
+        <img id="FullImage">
+        <span id="CloseButton" onclick="CloseFullView()">&times;</span>
+    </div>
+
+    <script src="./js/model.js" type="module"></script>
+    <script src="./js/controller.js" type="module"></script>
+    <script src="./js/view.js" type="module"></script>
+
+    <script type="text/javascript">
+        function CloseFullView()
+        {
+            document.getElementById("FullImageView").style.display = "none";
+        }
+    </script>
+</body>
+</html>

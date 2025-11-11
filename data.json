@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "subtitle": "3D модель",
+        "name": "Мышь для компьютера",
+        "fileWeight": "1,5 мб",
+        "date": "2025-10-04",
+        "category": "models",
+        "pathFile": "./downoladFiles/mouse.rar",
+        "imageFile": "./img/мышь.jpg"
+    },
+
+    {
+        "id": 2,
+        "subtitle": "Исходник",
+        "name": "Кликер",
+        "fileWeight": "7,4 мб",
+        "date": "2025-10-04",
+        "category": "sources",
+        "pathFile": "./downoladFiles/Clicker.rar",
+        "imageFile": "./img/3.jpg"
+    },
+
+    {
+        "id": 4,
+        "subtitle": "2D спрайт",
+        "name": "Тянка",
+        "fileWeight": "1 мб",
+        "date": "2025-10-04",
+        "category": "sprites"
+    },
+
+    {
+        "id": 5,
+        "subtitle": "3D модель",
+        "name": "Клавиатура",
+        "fileWeight": "1,7 мб",
+        "date": "2025-10-04",
+        "category": "models",
+        "pathFile": "./downoladFiles/mouse.rar",
+        "imageFile": "./img/клавиатура.jpg"
+    },
+
+    {
+        "id": 6,
+        "subtitle": "3D модель",
+        "name": "Помятая бумага",
+        "fileWeight": "15 кб",
+        "date": "2025-10-15",
+        "category": "models",
+        "pathFile": "./downoladFiles/badPaper.rar",
+        "imageFile": "./img/paper.jpg"
+    }
+]
